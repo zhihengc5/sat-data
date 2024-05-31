@@ -9,7 +9,7 @@ public class Main {
     ArrayList<Integer> totalScore = new ArrayList<Integer>();
     
     try{
-      Scanner s = new Scanner(new File("src/main/total.txt"));
+      Scanner s = new Scanner(new File("total.txt"));
 
       while(s.hasNext()){
         int score = Integer.parseInt(s.nextLine());
